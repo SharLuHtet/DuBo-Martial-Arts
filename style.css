@@ -1,0 +1,91 @@
+#accordion{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+body {
+    color: #333;
+    
+    background: #f3f3f3;
+  }
+  h1 {
+      margin-bottom: 28px;
+      color: #4679bd;
+      font-weight: 400;
+      text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+  table {
+    border-collapse: collapse;
+    width: 40%; 
+    margin: 0 auto;
+  }
+  
+  th {
+    background-color: #c9e8f2;
+    font-weight: bold;
+  }
+  th,
+  td {
+    border: 0.125em solid #333;
+    line-height: 1.5;
+    padding: 0.75em;
+    /* Makes headings center */
+    
+    /* and body left */
+    text-align: left;
+  }
+  td {
+    background-color: white;
+  }
+  /* Stack rows vertically on small screens */
+  @media (max-width: 30em) {
+    /* Hide column labels */
+      thead tr {
+          position: absolute;
+          top: -9999em;
+          left: -9999em;
+      }
+    
+      tr {
+      border: 0.125em solid #333;
+      border-bottom: 0;
+    }
+      /* Leave a space between table rows */
+    tr + tr {
+      margin-top: 1.5em;
+    }
+    /* Get table cells to act like rows */
+    tr,
+    td {
+          display: block;
+      }
+    
+      td {
+          border: none;
+          border-bottom: 0.125em solid #333;
+      /* Leave a space for data labels */
+          padding-left: 50%;
+      }
+      /* Add data labels */
+    td:before {
+      content: attr(data-label);
+      display: inline-block;
+      font-weight: bold;
+      line-height: 1.5;
+      margin-left: -100%;
+      width: 100%;
+    }
+  }
+  /* Stack labels vertically on smaller screens */
+  @media (max-width: 20em) {
+    td {
+      padding-left: 0.75em;
+    }
+    td:before {
+      display: block;
+      margin-bottom: 0.75em;
+      margin-left: 0;
+    }
+    
+  }

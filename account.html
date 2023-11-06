@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+    <title>Programming in java</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="courseschedule.html">
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <head>
+      <style>
+        
+    .dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+      </style>
+     <script>
+      $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+          $(this).next('ul').toggle();
+          e.stopPropagation();
+          e.preventDefault();
+        });
+      });
+      </script>  
+
+  <script>
+    $( function() {
+      $( "#tabs" ).tabs();
+    } );
+    </script>
+
+    </head>
+    <body>
+         <!--nav bar-->
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>                        
+    </button>
+    <a class="navbar-brand "  href="#">ABC Learning Center</a>
+    </div>
+    
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+    <li><a href="index.html">Home</a></li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Courses</a>
+          
+          <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="projava.html">Programming in Java</a></li>
+            <li><a tabindex="-1" href="pronet.html">Programming in .Net</a></li>
+            <li><a tabindex="-1" href="promicrosoft.html">Microsoft office</a></li>
+            <li><a tabindex="-1" href="prohtml.html">HTML</a></li>
+            <li class="dropdown-submenu">
+              <a class="test" tabindex="-1" href="courseschedule.html">Course Schedule <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="pj.html">Course schedule for programming in java</a></li>
+                <li><a tabindex="-1" href="pn.html">Course schedule for programming in .Net</a></li>
+                <li><a tabindex="-1" href="pm.html">Course schedule for Microsoft office</a></li>
+                <li><a tabindex="-1" href="ph.html">Course schedule for HTML</a></li>
+                
+               
+              </ul>
+            </li>
+          </ul>
+      
+      <div class="dropdown">
+      
+      </div>
+      </li>
+    
+    <li><a href="aboutus.html">About us</a></li>
+    <li><a href="account.html">Account</a></li>
+    <li><a href="contat.html">Contact </a></li>
+    <li><a href="privacy.html">Privacy policy </a></li>
+    <li><a href="sitemap.html">Sitemap</a></li>
+    
+    </ul>
+    </div>
+    
+</nav>
+
+<center><h1>Account</h1></center><br><br>
+<div class="container">
+
+  
+
+
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-9 col-lg-6 col-xl-5"><br><br><br><br>
+            <img class="img-responsive" src="img/lo.jpg" >
+         
+        </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form>
+            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+             
+            </div>
+            
+            <h3 id="wel">Welcome Back, ABC Learning Center.</h3>
+  <center>
+            <p>Welcome back! Please enter your details.</p>
+  <br>
+  <button type="button" class="btn btn-primary btn-lg"
+  onclick="window.location.href='https://www.youtube.com/results?search_query=java/'">Log in with Google</button><br><br>
+              
+              <p>or</p><br><br>
+            
+
+            <form action="/action_page.php" class="was-validated">
+              <div class="form-group">
+              
+                <input type="text" class="form-control" id="uname" placeholder="Enter username name" name="uname" required>
+                
+              </div>
+              <div class="form-group">
+                
+                <input type="email" class="form-control" id="eml" placeholder="Enter a valid email address" name="eml" required></div>
+               
+                <div class="form-group">
+                  <textarea id="w3review" class="form-control"  name="w3review" rows="8" cols="200" placeholder="Enter your message"></textarea>
+            
+                </div>
+
+           
+  
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- Checkbox -->
+              <div class="row">
+                <div class="col-md-6">
+              <div class="form-check mb-0">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                <label class="form-check-label" for="form2Example3">
+                  Remember me
+                </label>
+              </div> </div>
+              <div class="col-md-6">
+              <a href="#!" class="text-body" data-toggle="modal"  data-target="#First_Spac_Encyclopaedia">Forgot password? </a></div></div>
+                <!-- Modal -->
+<div class="modal fade" id="First_Spac_Encyclopaedia">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content" >
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Forgot your password?</h4><br><p><b> We will send you a password reset via email.</b>
+         </p>
+      </div>
+    </form>
+      <div class="modal-body">
+        
+        <form>
+          <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+           
+          </div>
+            <!--form-->
+           
+          <form action="/action_page.php" class="was-validated">
+            <section > 
+            <div class="form-group">
+              <h2 >Email*</h2>
+             <input type="email" class="form-control" id="eml" placeholder="Enter a valid email address" name="eml" required></div>
+             
+            </section>
+          
+           
+
+            </div>
+            <div class="text-left text-lg-start mt-4 pt-2">
+           <button type="submit" id="res" class="btn btn-primary btn-lg">Reset my password.</button> 
+           </form><br><br>
+            </div>
+          <br><br>
+        
+         
+      </div>
+    </div>
+  </div>
+
+              
+            <br><br>
+  
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button type="submit" class="btn btn-primary btn-lg"   style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+              <br><br>
+              <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+                  class="link-danger" data-toggle="modal"  data-target="#First_Spac_Encyclopaedi">Register</a>              
+                   <!-- Modal -->
+                  <div class="modal fade" id="First_Spac_Encyclopaedi">
+                    <div class="modal-dialog">
+                      <!-- Modal content-->
+                      <div class="modal-content" >
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Create Account</h4><br><p><b> We will send you a password reset via email.</b>
+                           </p>
+                        </div>
+                  
+                        <div class="modal-body">
+                          
+                          <form>
+                            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                             
+                            </div>
+                            <center>
+                              <!--form-->
+                            <form action="/action_page.php" class="was-validated">
+
+                              
+                              <div class="form-group">
+                               <input type="text" class="form-control" id="uname" placeholder="Name" name="uname" required></div>
+                              
+                              <div class="form-group">
+                                <input type="email" class="form-control" id="eml" placeholder="Email address" name="eml" required></div>
+                               
+                                <div class="form-group">
+                                  <input type="password" class="form-control" id="pwd" placeholder="Password" name="pwd" required>
+                            
+                                </center>
+                  
+                              </div>
+                              <div class="text-left text-lg-start mt-4 pt-2">
+                             <center><button type="submit" class="btn btn-primary btn-lg">Sign  Up</button> </center>
+                             </form><br><br>
+                              </div>
+                            <br><br>
+                         
+                           
+                        </div>
+                      </div>
+                    </div> 
+            </div>
+          
+  <class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
+    
+     
+      <!-- Right -->
+    </div>
+  </section>
+</div>
+</form>
+
+
+<br><br>
+ <!--footer-->
+ <section id="ff">
+ <footer class="footer">
+    
+      
+  <div class="footer__addr">
+    
+      <div class="row">
+          <div class="col-md-4">
+    <h1 class="footer__logo">ABC Learning center</h1><br><br><br> <h2>Follow us</h2>
+        <br>
+        
+                    <!--icon-->
+                    <button type="button" class="btn btn-social-icon btn-outline-youtube" ><a href="https://www.youtube.com/results?search_query=java"><i class="fa fa-youtube"></i> </a></button>
+                    <button type="button" class="btn btn-social-icon btn-outline-envelope"><a href=" https://outlook.office.com/mail/inbox/id/AAQkADQ4NWY0YWUzLTA5YzgtNGQ3OS1hNjg0LTYyMzBhNTZlNmI5MAAQACXYkoh6pXxMl9lsDDtrMbI%3D"><i class="fa fa-envelope"></i></a></button>                                        
+                    <button type="button" class="btn btn-social-icon btn-outline-facebook"><a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a></button>
+                    <button type="button" class="btn btn-social-icon btn-outline-instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></button>
+                  </div> 
+                
+<div class="col-md-4">
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Community</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="aboutus.html">About us</a>
+        </li>
+
+     <li>
+          <a href="privacy.html">Privacy policy</a>
+        </li>
+            
+        <li>
+          <a href="terms.html">Terms&conditions</a>
+        </li>
+
+        <li>
+          <a href="contact.html">Contact us</a>
+        </li>
+        <li>
+          <a href="success.html">Success story</a>
+        </li>
+
+      </ul>
+    </li>
+  </div>
+    
+
+  <div class="col-md-4">
+    <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Learn</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="projava.html">Java courses</a>
+        </li>
+        
+        <li>
+          <a href="pronet.html">.Net courses</a>
+        </li>
+        <li>
+          <a href="promicrosoft.html">Microsoft office</a>
+        </li>
+        
+        <li>
+          <a href="prohtml.html">HTML</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  </div> 
+  
+</footer></div></section>
+ <!--footer-->
+
+</body>
+</html>
+        

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+     body {
+background-color:#642AE0;
+}
+     
+    </style>
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="script.js">
+   
+    <!-- Bootstrap CSS -->
+    <title>ABC Learning Center</title>
+    <meta charset="utf-8">
+    
+    <meta name="keywords" content="Registration, Form, Course" />
+    <meta name="description"
+     content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel='stylesheet' href='../RegistrationForm.css' type='text/css' />
+    <script src="RegistrationForm.js"></script>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contact.css">
+  
+  </head>
+  <body onload="document.registration.user_name.focus();">
+    <!--nav bar-->
+  <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>                        
+    </button>
+    <a class="navbar-brand "  href="#">ABC Learning Center</a>
+    </div>
+    
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+    <li><a href="index.html">Home</a></li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Courses
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <li><a class="dropdown-item" href="projava.html">Programming in java</a></li>
+        <li><a class="dropdown-item" href="pronet.html">Programming in .Net</a></li>
+        <li><a class="dropdown-item" href="promicrosoft.html">Microsoft office</a></li>
+        <li><a class="dropdown-item" href="prohtml.html">HTML</a></li></ul>
+      </li>
+    
+    <li><a href="aboutus.html">About us</a></li>
+    <li><a href="account.html">Account</a></li>
+    <li><a href="contat.html">Contact </a></li>
+    <li><a href="privacy.html">Privacy policy </a></li>
+    <li><a href="sitemap.html">Sitemap</a></li>
+    
+    </ul>
+    </div>
+  </nav>
+  
+  <br> <br><br><br>
+  <div class="container">
+  <section id="logo"></section>
+
+  <section class="contact-sec sec-pad">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="contact-detail">
+            <h1 class="section-title">Contact us</h1>
+  
+            <ul class="contact-ul">
+              <li><i class="fa fa-location-dot"></i> 91, Ram Nagar, Ram Mandir, Delhi</li>
+  
+              <li>
+                <i class="fa fa-phone"></i>
+                <a href="tel:08510004495"><b>0255000XXXX</b></a>,
+                <a href="tel:08510005495"><b>0251600XXXX</b></a>
+              </li>
+  
+              <li>
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:pardeepkumar4bjp@gmail.com"><b> demounknown@gmail.com</b></a>
+              </li>
+            </ul>
+  
+            <span>
+              <a href="https://web.facebook.com/?_rdc=1&_rdr" class="fb"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/" class="insta"><i class="fa fa-instagram"></i></a>
+              <a href="https://twitter.com/?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
+            </span>
+          </div>
+        </div>
+
+        
+        <div class="col-md-6">
+        <body onload="document.registration.user_name.focus();">
+          <h1>Registration Form</h1>
+          
+          <form name='registration' onSubmit="return formValidation();" method="GET" action="thankyou.html">
+      
+        
+      
+              <label for="user-name">Name:</label>
+              <input type="text" name="user_name" id="user_name" size="30" placeholder="Enter User Name here" required />
+              <br><br>
+      
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" size="30" placeholder="Enter your email here" required />
+              <br><br>
+      
+              
+              <label for="ddlgender">Gender:</label>
+              <select name="ddlgender" id="ddlgender">
+                  <option selected="" value="Default">(Please select a gender)</option>
+                  <option value="male">male</option>
+                  <option value="female">female</option>
+              </select>
+              <br><br>
+      
+              <label for="ddlstatus">Status:</label>
+              <select id="ddlstatus">
+                  <option value="active">active</option>
+                  <option value="inactive">inactive</option>
+              </select>
+      
+              <input type="submit" name="submit" value="Submit" />
+      
+          </form>
+  
+      <div style="text-align: center; margin-top: 20px;">
+        <p> Copyright &copy;
+          
+        </p>
+      </div>
+    </div>
+  
+    </div>
+    <br><br><br>
+  </section>
+</div>
+<br><br><br>
+   <!--footer-->
+ <footer class="footer">
+    
+      
+    <div class="footer__addr">
+      
+        <div class="row">
+            <div class="col-md-4">
+      <h1 class="footer__logo">ABC Learning center</h1><br><br><br> <h2>Follow us</h2>
+          <br>
+          
+                      <!--icon-->
+                      <button type="button" class="btn btn-social-icon btn-outline-youtube" ><a href="https://www.youtube.com/results?search_query=java"><i class="fa fa-youtube"></i> </a></button>
+                      <button type="button" class="btn btn-social-icon btn-outline-envelope"><a href=" https://outlook.office.com/mail/inbox/id/AAQkADQ4NWY0YWUzLTA5YzgtNGQ3OS1hNjg0LTYyMzBhNTZlNmI5MAAQACXYkoh6pXxMl9lsDDtrMbI%3D"><i class="fa fa-envelope"></i></a></button>                                        
+                      <button type="button" class="btn btn-social-icon btn-outline-facebook"><a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a></button>
+                      <button type="button" class="btn btn-social-icon btn-outline-instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></button>
+                    </div> 
+                  
+  <div class="col-md-4">
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Community</h2>
+  
+        <ul class="nav__ul">
+          <li>
+            <a href="aboutus.html">About us</a>
+          </li>
+  
+       <li>
+            <a href="privacy.html">Privacy policy</a>
+          </li>
+              
+          <li>
+            <a href="terms.html">Terms&conditions</a>
+          </li>
+  
+          <li>
+            <a href="contact.html">Contact us</a>
+          </li>
+          <li>
+            <a href="success.html">Success story</a>
+          </li>
+  
+        </ul>
+      </li>
+    </div>
+      
+  
+    <div class="col-md-4">
+      <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Learn</h2>
+        
+        <ul class="nav__ul">
+          <li>
+            <a href="projava.html">Java courses</a>
+          </li>
+          
+          <li>
+            <a href="pronet.html">.Net courses</a>
+          </li>
+          <li>
+            <a href="promicrosoft.html">Microsoft office</a>
+          </li>
+          
+          <li>
+            <a href="prohtml.html">HTML</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+    </div> 
+    
+  </footer></div>
+   <!--footer-->
+  
+  </body>
+  </html>
